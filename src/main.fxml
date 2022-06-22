@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller">
+   <children>
+      <PasswordField alignment="CENTER" layoutX="210.0" layoutY="210.0" promptText="Password" />
+      <Button fx:id="title" layoutX="260.0" layoutY="242.0" mnemonicParsing="false" onAction="#btnOKclicked" text="Войти" />
+      <Label layoutX="206.0" layoutY="107.0" text="Авторизация">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
