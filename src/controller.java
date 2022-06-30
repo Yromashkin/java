@@ -8,7 +8,15 @@ public class controller {
     private Button title;
 
     @FXML
+    private Button title1;
+
+    @FXML
     void btnOKclicked(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnr(ActionEvent event) {
 
     }
 
