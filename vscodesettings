@@ -1,0 +1,54 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "app_984d99fe",
+            "vmArgs": "--module-path C:/javatest/Lib/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Юрий\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.base.jar",
+        "d:\\Юрий\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.controls.jar",
+        "d:\\Юрий\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.fxml.jar",
+        "d:\\Юрий\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.graphics.jar",
+        "d:\\Юрий\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.media.jar",
+        "d:\\Юрий\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.swing.jar",
+        "d:\\Юрий\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.web.jar",
+        "d:\\Юрий\\Lib\\javafx-sdk-18.0.1\\lib\\javafx-swt.jar",
+        "d:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.base.jar",
+        "d:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.controls.jar",
+        "d:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.fxml.jar",
+        "d:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.graphics.jar",
+        "d:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.media.jar",
+        "d:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.swing.jar",
+        "d:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.web.jar",
+        "d:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx-swt.jar",
+        "c:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.base.jar",
+        "c:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.controls.jar",
+        "c:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.fxml.jar",
+        "c:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.graphics.jar",
+        "c:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.media.jar",
+        "c:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.swing.jar",
+        "c:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx.web.jar",
+        "c:\\java\\Lib\\javafx-sdk-18.0.1\\lib\\javafx-swt.jar",
+        "c:\\javatest\\Lib\\mysql-connector-java-8.0.29\\mysql-connector-java-8.0.29.jar"
+    ]
+}
